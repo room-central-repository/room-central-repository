@@ -50,9 +50,9 @@ int main ( int argc, char** argv )
     // if we are on MacOS and we are building a server bundle, starts Jamulus in server mode
     bool         bIsClient                 = false;
 #else
-    bool         bIsInicial                = true;
+    bool         bIsInicial                = false;
     bool         bIsClient                 = false;
-    bool         bIsServer                = false;
+    bool         bIsServer                = true;
 #endif
 
     bool         bUseGUI                   = true;
